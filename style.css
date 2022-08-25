@@ -1,0 +1,266 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.motto{
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.motto img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #d2dae2;
+    font-size: 25px;
+    
+  }
+
+#donate{
+    position: absolute;
+    background-color:#ff3f34;
+    height: 55px;
+    width: 210px;
+    font-size: 30px;
+    left: 365px;
+    
+    
+}
+
+#donateToday{
+    text-align: center;
+    color: #010d1a;
+    font-size: 70px;
+    
+}
+
+#helpPeople{
+    text-align: center;
+    color: #010d1a;
+    font-size: 40px;
+}
+
+#amount1{
+    height: 95px;
+    width: 120px;
+    font-size: 30px;
+    position: absolute;
+    left: 500px;
+}
+
+#amount2{
+    height: 95px;
+    width: 120px;
+    font-size: 30px;
+    position: absolute;
+    left: 700px;
+}
+
+#amount3{
+    height: 95px;
+    width: 120px;
+    font-size: 30px;
+    position: absolute;
+    left: 900px;
+}
+
+#amount4{
+    height: 95px;
+    width: 120px;
+    font-size: 30px;
+    position: absolute;
+    left: 1100px;
+}
+
+#amount5{
+    height: 95px;
+    width: 120px;
+    font-size: 30px;
+    position: absolute;
+    left: 1300px;
+}
+
+.amount{
+    text-align: center;
+    font-style: italic;
+    color: #3d3d3d;
+    background-color: #a8a8a4;
+    
+}
+
+.amount:hover{
+    text-align: center;
+    font-style: italic;
+    color: #000000;
+    background-color: #ff3838;
+    
+}
+
+
+
+input[type=text], select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  input[type=submit] {
+    width: 10%;
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  #donate2{
+    position: absolute;
+    background-color:#ff3f34;
+    height: 55px;
+    width: 210px;
+    font-size: 30px;
+    left:850px;
+    
+  }
+
+  #donatePlan{
+    text-align: center;
+    font-size: 50px;
+  }
+
+.food{
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px;
+    width: 500px;
+    height: 650px;
+    margin-left: 100px;
+    text-align: left;
+    background-color: #ecf0f1;
+    box-shadow: 1px 2px 5px #1e272e;
+    
+}
+
+.food:hover{
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px;
+    width: 500px;
+    height: 650px;
+    margin-left: 100px;
+    text-align: left;
+    background-color: #f5cd79;
+    box-shadow: 11px 14px 1px #1e272e;
+    
+}
+
+#donatePlan{
+    background-color: #ffcccc;
+}
+
+.other{
+    background-color: #4b4b4b;
+}
+.donateArea{
+    background-color:#ffaf40;
+}
+
+#depend{
+    font-size: 70px;
+}
+
+.button2{
+    position: absolute;
+    background-color:#ffe70b;
+    height: 55px;
+    width: 310px;
+    font-size: 30px;
+    left: 450px;
+}
+
+.section {
+    margin: 5%;
+    /* padding: 10vh; */
+    text-align: center;
+    /* display: inline-block; */
+}
+
+.saveLife {
+    padding: 5%;
+    display: inline-block;
+    width: calc(100% / 3);
+    
+}
+#d1{
+    font-size: 80px;
+}
+.button3{
+    position: absolute;
+    background-color:#ffe70b;
+    height: 55px;
+    width: 310px;
+    font-size: 30px;
+    left: 1150px;
+}
+
+.iframe{
+    margin: 5%;
+    /* padding: 10vh; */
+    text-align: center;
+    /* display: inline-block; */
+}
+.video{
+    padding: 5%;
+    display: inline-block;
+    width: calc(100% / 2);
+}
+#subscribe{
+    height: 40px;
+    width: 300px;
+    background-color: #a8a8a4;
+    
+}
+#subscribe2{
+    height: 43px;
+    width: 120px;
+    background-color: rgb(255, 251, 0);
+    font-size: 25px;
+}
+#update{
+    font-size: 50px;
+}
+#humble{
+    font-size: 40px;
+
+}
+#copyright{
+    background-color: #000000;
+    text-align: center;
+    color: #a8a8a4;
+}
